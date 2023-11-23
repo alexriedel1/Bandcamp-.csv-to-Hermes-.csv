@@ -15,11 +15,13 @@ bandcamp2hermes.py --file "path to your bandcamp csv file"
 
 ## Function
 
+Bandcamp exported CSV
 ```python
 10/16/23,max mustermann,muster@web.de,+49 01765553332,,Max Mustermann,Neue Bahnhofstraße 19a,,Berlin,,12345,Germany,DE,Band,"Product",,1,,23.23,0.00,6.00,29.23,EUR,Germany,,,,https://band.bandcamp.com/album/band,1234567891FFF,12318549643
 ```
 to 
 
+Hermes importable CSV
 ```python
 Max;Mustermann;;Neue Bahnhofstraße;19a;12345;Berlin;;DEU;0049;1765553332;muster@web.de
 ```
