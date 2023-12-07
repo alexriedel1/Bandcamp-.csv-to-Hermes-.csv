@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
     new_filename = Path(filename.parent, f"{filename.stem}_hermes{filename.suffix}")
     hermes_df.to_csv(
-        new_filename, encoding="ISO-8859-1", index=False, header=False, sep=";"
+        new_filename, encoding="utf-16", index=False, header=False, sep=";"
     )
 
     logging.info(f"Saved new file to {str(new_filename)}")
